@@ -1,0 +1,73 @@
+.graphBackground{
+background-image: url('https://truechampiontherapy.com/wp-content/uploads/2022/11/Runners1500x400.jpg');
+background-position: bottom;
+background-size: cover;
+background-color:aqua;
+width:100%;
+height:36%;
+position: fixed;
+top: 76vh;
+left:0;
+z-index:-1;
+}
+
+.graph{
+    background-color: rgb(244, 243, 225);
+  
+    height:50vh;
+    width: 100%;
+}
+
+
+.check{
+    background-color: #409ae9;
+    width: 15em;
+    height: 3em;
+    color: aliceblue;
+    font-weight: 600;
+    border: none;
+    border-radius: 5px;
+    font-size: larger;
+    
+  }
+  .check:active{
+    background-color: #1174de;
+  }
+  .check:hover{
+    background-color: #0c6bd1;
+  }
+
+
+@media  (min-width:300px) and (max-width: 600px) {
+    .graphBackground{
+        width:100%;
+        height:30%;
+        position: fixed;
+        top: 73vh;
+    }
+    .graph{
+        height: 80vh;
+        width: 100%;
+    }
+}
+@media (min-width: 601px) and (max-width: 1024px) {
+    .graphBackground{
+        width: 100%;
+        height:30%;
+        position: fixed;
+        top: 70vh;
+    }
+    .graph{
+        height: 80vh;
+        width: 100%;
+    }
+}
+
+
+.apexcharts-toolbar{
+    display: none !important;
+}
+.apexcharts-legend .apx-legend-position-bottom .apexcharts-legend-series, .apexcharts-legend .apx-legend-position-top .apexcharts-legend-series {
+    display: none;
+   
+}

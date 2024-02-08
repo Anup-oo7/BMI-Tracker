@@ -1,0 +1,42 @@
+
+.tour{
+  margin: 15px 0px;
+width: 8em;
+  height: 2em;
+  border-radius: 2.5em;
+  font-weight:600;
+  font-size: xx-large;
+  color: aliceblue;
+  background-color: #0286aa;
+  &:hover {
+    background-color: #24252a;
+    color: #75a1e0;
+  }
+}
+
+
+.getStart{
+  border:none;
+  font-size: large;
+  font-weight: 600;
+  background-color: #0286aa;
+  color: #fff;
+  height: 45px;
+  border-radius: 24px;
+  width: 10em;
+ 
+}
+.getStart:hover{
+  background-color: #fff;
+  color: #0286aa;
+}
+
+@media (min-width:300px) and (max-width: 600px) {
+  .gif{
+    width: 90%;
+  }
+}
+
+
+
+
